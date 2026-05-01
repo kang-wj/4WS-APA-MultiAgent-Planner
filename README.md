@@ -16,3 +16,9 @@ This project solves the high computational cost and poor trajectory smoothness o
 git clone [https://github.com/yourusername/4WS-APA-MultiAgent-Planner.git](https://github.com/yourusername/4WS-APA-MultiAgent-Planner.git)
 cd 4WS-APA-MultiAgent-Planner
 pip install -r requirements.txt
+
+##🚗 Quick Start
+
+Run the multi-agent evaluation pipeline:
+Bash
+python scripts/evaluate_apollo.py --scenario narrow_perpendicular
